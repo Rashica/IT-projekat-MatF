@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+	<style>
+	
+		.carousel-inner img {
+			width: 90%;
+		}
+
+		.row img {
+			width: 100%;
+		}
+
+		.carousel-inner div {
+			text-align: center;
+		}
+			
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		a:hover {
+			font-style: italic;
+			color: white;
+			font-size: 18px;
+		}
+
+	</style>
+</head>
+
+<body>
+
+<div id="myCarousel" class="carousel slide d-none d-sm-block" data-ride="carousel">
+
+	<ul class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ul>
+	
+	<div class="carousel-inner">
+       
+		<div class="carousel-item active">
+			<img src="./slike/AboutUs.jpg" alt="O nama">
+            <div class="carousel-caption">
+                <h1>O nama</h1>
+               <a href="./o_meni.html">Danicin IT kutak</a>
+            </div>
+		</div>
+
+		<div class="carousel-item">
+            <img src="./slike/contacUs.png" alt="Kontaktirajte nas">
+            <div class="carousel-caption">
+                <h1>Kontakt</h1>
+                <a href="./kontakt.html">Javite nam se</a>
+            </div>
+		</div>
+
+		<div class="carousel-item">
+            <img src="./slike/project.jpg" alt="Projekti">
+            <div class="carousel-caption">
+                <h1>Projekti</h1>
+                <a href="./projekti.html">za koje mislimo da su važni</a>
+            </div>
+		</div>
+
+	</div>
+	
+	<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+    </a>
+    
+	<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+
+</div>
+
+<div class="row d-sm-none">
+	<div class="col-12"><img src="./slike/AboutUs.jpg"></div>
+</div>
+		
+<div class="row d-sm-none">
+	<div class="col-12"><img src="./slike/contacUs.png"></div>
+</div>
+		
+<div class="row d-sm-none">
+	<div class="col-12"><img src="./slike/project.jpg"></div>
+</div>
+
+</body>
+
+</html>

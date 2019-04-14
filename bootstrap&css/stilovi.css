@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Dharko Gilbert;
+	src: url(Dharko\ Gilbert.ttf);
+}
+
+@font-face {
+	font-family: Julietta Messie;
+	src: url(Julietta-Messie-Demo.ttf);
+}
+
+.stil1 {
+	background-color: #2288a8;
+	font-family: Dharko Gilbert;
+}
+
+.stil2 {
+	font-family: Dharko Gilbert;
+	font-size: 30px;
+	background-color: #84cded;
+}
+
+.stil3 {
+	font-family: Dharko Gilbert;
+	background-color: #6d8836;
+}
+
+.stil4 {
+	font-family: Dharko Gilbert;
+	background-color: #736056;
+}
+
+.stil5 {
+	font-family: Dharko Gilbert;
+	background-color: #dad4da;
+}
+
+.stil6 {
+	font-family: Dharko Gilbert;
+	background-color: #f1ece7;
+}
+
+.font1 {
+	font-size: 30px;
+}
+
+.font2 {
+	font-size: 25px;
+}
+
+.fontglobal {
+	font-family: Dharko Gilbert;
+} 
+
+footer{
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+	position: fixed;
+	bottom: 0px;
+}
+
+
